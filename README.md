@@ -119,3 +119,7 @@ take all commits exempt a single one aka cherry picking commits based on a file 
 /// .....
 ```
 
+test.module-v1.0.0-beta.0.js
+```js
+export const moduleMethodName = () => { /** this is a NoOp no operationg */ };
+```
