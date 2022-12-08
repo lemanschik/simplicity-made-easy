@@ -20,4 +20,5 @@ lets explain now what they simple do:
 
 ok so i hope we are on page i did reduce the documentation of webpack and typescript now into 3 main parts they are simple but not easy.
 
+so when we look now in one of the code bases lets take typescript as they show how easy it is to make simple mistakes. They use inheritence all over so they did the main failure of applying classes and structures around Data we call that ORM/OMG you can only do one thing with data in general. And that is ruin it so if you do not ruin the data you safed a lot of frustration on the long run.
 
