@@ -94,3 +94,20 @@ The answer is beecause developer knowlege is decreasing with the decades as the 
 There is not a real question there exist only 2 languages ECMAScript and ASM ok i know that is shoking now but that is what it is. ECMAscript got most best implemented via the v8 engine today which is written in C++ that is a nice hybrid syntax that makes c more simple which then at the end will get translated to ASM or instructions that can get translated to ASM. That depends on if it is usefull to finaly compile the code for the target or better compile it on the target it self. 
 
 The future of V8 how ever is ECMAScript it self generating ASM. In fact that is already WiP via a tiny project that is called JustJS. It is a a Prototype and also the proof that it is possible and the right thing to do. The man who created and published that example is in my view a legend even if he does maybe or maybe not understand what he did there. I never had time to talk much with him about none tech details and still i feel connected because he intentional shows me with his code that he understands the concepts of simplicity and he does execute them. I do not even know what drives him but as i saw it i was 100% sure that it is time to publish that. I my self was to deep into other research to come up with such a complet well done solution like he did. 
+
+## Inspiring Examples that i did create to challenge your mind
+
+#### Compile a ECMAScript Module out of a git file reference 
+
+
+```js
+/// .....
+```
+
+
+take all commits exempt a single one aka cherry picking commits based on a file that referencs the last commit that modified it in the current git repo branch. 
+
+```js
+/// .....
+```
+
