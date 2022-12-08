@@ -50,7 +50,7 @@ The answers to these questions is what matters in writing software not the look 
 - Can requirements change over time? 
 
 ## The benefits of simplicity are: 
-ease of understanding, ease of change, ease of debugging, flexibility, modules are pure functions that are recomposeable into a component composition over inharitance. Never create a class or structure for data always view the data in your way.
+ease of understanding, ease of change, ease of debugging, flexibility, modules are pure functions that are recomposeable into a component. The mantra is alwas composition over inharitance. Never create a class or structure for data always view the data in your way.
 
 ## Complex constructs: 
 State, Object, Methods, Syntax, Inheritance, Switch/matching, Vars, Imperative loops, Actors, ORM, Conditionals.
