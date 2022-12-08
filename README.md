@@ -119,6 +119,10 @@ take all commits exempt a single one aka cherry picking commits based on a file 
 /// .....
 ```
 
+
+the below written code example is a special one it got commited via 1 parent 87540a7 commit fe843034391a2fe6de2d6e02e9bd0542882bf23d and will teach you the concepts of git references with this README.md as the example file. i will use that simple concept often to train you with the concept that a single git commit can be a module or lets say you can compose modules out of lines of text that are referenced via commits.
+
+
 test.module-v1.0.0-beta.0.js
 ```js
 export const moduleMethodName = () => { /** this is a NoOp no operationg */ };
