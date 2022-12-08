@@ -127,3 +127,7 @@ test.module-v1.0.0-beta.0.js
 ```js
 export const moduleMethodName = () => { /** this is a NoOp no operationg */ };
 ```
+
+
+## Key Take Aways
+- if you compose software out of easy to use software components like microservices in kubernets you get easy explained a gigantic un maintainable mess that no one can control who says so is lieng to him self or he is ignorant about the facts. There are not many excuses how ever to even attempt to run such software out of logical reasoning at last.
