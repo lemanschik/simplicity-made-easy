@@ -98,10 +98,18 @@ The future of V8 how ever is ECMAScript it self generating ASM. In fact that is 
 ## Inspiring Examples that i did create to challenge your mind
 
 #### Compile a ECMAScript Module out of a git file reference 
-
+remember the fundamentals Build simple systems by: 
+Abstracting - design by answering questions related to what, who, when, where, why, and how.
+Choosing constructs that generate simple artifacts like modules that do not reference other modules without a unified resolver method that produces static in memory references...
+Simplify by encapsulation via composition of functions and streams.
 
 ```js
-/// .....
+// what? Compile a ECMAScript Module out of a git file reference
+// who? import('git-client')
+// when? as soon as ready we use the functional stream pattern.
+// where? inMemory 
+// why? because we want to instantiate it to do something with it
+// how? simply read the above questions and then you will already know the solution the concept of simple self explaining code.
 ```
 
 
