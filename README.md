@@ -36,7 +36,7 @@ The good news anywway is that the current ECMAScript API's are so well overdesig
 # The core fundamentals of simplicity
 
 ## We should aim for simplicity because simplicity is a prerequisite for reliability.
-This means if your software is not change able by a outside contributor in less then 1 day to fix is problems then your software is easy sayed not simple.
+This means if your software is not change able by a outside contributor in less then 1 day to fix his problems then your software is easy sayed not simple.
 
 ## Simple is often erroneously mistaken for easy. 
 "Easy" means "to be at hand", "to be approachable". "Simple" is the opposite of "complex" which means "being intertwined", "being tied together". Simple != easy.
