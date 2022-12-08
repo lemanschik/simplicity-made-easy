@@ -29,4 +29,41 @@ ok so i hope we are on page i did reduce the documentation of webpack and typesc
 
 so when we look now in one of the code bases lets take typescript as they show how easy it is to make simple mistakes. They use inheritence all over so they did the main failure of applying classes and structures around Data we call that ORM/OMG you can only do one thing with data in general. And that is ruin it so if you do not ruin the data you safed a lot of frustration on the long run.
 
+If you want to manipulate data correct you need to use Streams they are internal managed Queue implementations so you do not need to code your own. They support everything that you need to build a complex system out of simple modules that you turn into composed components. So there was no term like easy! It is not easy! Easy would mean i give you one line of code and everything is done like webpack and typescript. 
+
+The good news anywway is that the current ECMAScript API's are so well overdesigned that it is even easy to use them most time as beeing easy was one of the main goals of ECMAScript it self. So the need to add more easyness is relativ low at last no one spotted something and it is a world wide used thing at web scale.
+
+# The core fundamentals of simplicity
+
+## We should aim for simplicity because simplicity is a prerequisite for reliability.
+This means if your software is not change able by a outside contributor in less then 1 day to fix is problems then your software is easy sayed not simple.
+
+## Simple is often erroneously mistaken for easy. 
+"Easy" means "to be at hand", "to be approachable". "Simple" is the opposite of "complex" which means "being intertwined", "being tied together". Simple != easy.
+
+## What matters in software is: 
+The answers to these questions is what matters in writing software not the look and feel of the experience writing the code or the cultural implications of it.
+- does the software do what is supposed to do? 
+- Is it of high quality? 
+- Can we rely on it? 
+- Can problems be fixed along the way? 
+- Can requirements change over time? 
+
+## The benefits of simplicity are: 
+ease of understanding, ease of change, ease of debugging, flexibility, modules are pure functions that are recomposeable into a component composition over inharitance. Never create a class or structure for data always view the data in your way.
+
+## Complex constructs: 
+State, Object, Methods, Syntax, Inheritance, Switch/matching, Vars, Imperative loops, Actors, ORM, Conditionals.
+
+## Simple constructs: 
+Const, Functions, Data, Polymorphism, Managed refs, Streams, Declarative data manipulation, Rules, Consistency.
+
+## Build simple systems by: 
+Abstracting - design by answering questions related to what, who, when, where, why, and how.
+Choosing constructs that generate simple artifacts like modules that do not reference other modules without a unified resolver method that produces static in memory references...
+Simplify by encapsulation via composition of functions and streams.
+
+
+
+
 
