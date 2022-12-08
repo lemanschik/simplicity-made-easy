@@ -64,6 +64,16 @@ Choosing constructs that generate simple artifacts like modules that do not refe
 Simplify by encapsulation via composition of functions and streams.
 
 
+## Ok you understood it now!
+Let me show you where clever systems in the world tryed to guide you into the right direction.
 
+### Git
+Many people know it and even more hate it. While when understood and applyed correct is the essence of simplicity it even has that in its name and it is all over. 
+- It has the core concept of modules written as indipendent binarys. 
+- It turns your string content so text into versioned hash referenced modules that are recompose able.
+
+so you see git does much more then host content it turns your content into modules any text that you add via a commit gets its own module every commit is a own module. 
+
+maybe that also helps you to identifie a good commit from a bad one. If a code commit that is not chor for the whole repo touches more then 1 Module or on higher level more then 1 component. Then you found bad code! That is the time where you need to take action and turn it back into a maintainable state.
 
 
