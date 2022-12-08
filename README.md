@@ -76,4 +76,16 @@ so you see git does much more then host content it turns your content into modul
 
 maybe that also helps you to identifie a good commit from a bad one. If a code commit that is not chor for the whole repo touches more then 1 Module or on higher level more then 1 component. Then you found bad code! That is the time where you need to take action and turn it back into a maintainable state.
 
+How does maintainable state look like?
+you need indipeendent working code and a unified reference to it most best this reference includes a content hash to verifie the content it self which is the code. When you want something more dynamic then a content hash you could also simply add a verification module after loading the module the verification needs not to depend on a hash it can depend on it.
 
+in general you need something that is called a identity provider or access manager for your modules. Something that routes capabilitys to the modular code. So you can be save that it only does what it should do and nothing else.
+
+git again provides that via its commit messages it is the verification protocol for the modules. while this messages often get abused for all kind of other stuff they are mainly designed only for verification of the module it self they contain the code changes in a readable so simple way to think about them. 
+
+### Object Based Databases Document based and other buzzwords
+All products in the familiy of Databases that are Object Document Based do inhirently embrace the concepts of simplicity. Every single documentation about the database design is in general documentation about how to design simple systems. Thats also the reason why most developers choose to even use a database as the backend it makes thinking for them more simple
+
+while databases it self are a historical thing they existed to solve the so called cache problems of slow hardisks when random accessed. They did so via a index the cache that could be queried to directly know without additional lookup where the data is. So it reduced the roundtrips. Thats why they existed. But today they are still all over the question is why?
+
+The answer is beecause developer knowlege is decreasing with the decades as the amount of developers doubles to fast we always got over 50% of developers with less expirence then 5 years and also in that 5 years they often do not get teached by persons who do real code work. 
