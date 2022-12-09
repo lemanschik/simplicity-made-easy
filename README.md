@@ -1,7 +1,7 @@
 # simplicity-made-easy
 A book about simple things that are maybe not as easy but simple in ECMAScript.
 
-A person once suggested to me a talk and today i want to port that talk over to ECMAScript to improve the knowleg about ECMAScript Engines.
+A person once suggested to me a talk https://www.infoq.com/presentations/Simple-Made-Easy/ and today i want to port that talk over to ECMAScript to improve the knowleg about ECMAScript Engines.
 They in fact drive the world for good reason. They are simple and not easy. This book trys to get you familar with the != between simple and easy. 
 
 the most easy example is maybe webpack it is a great fit as also typescript both are easy to use you install run adjust some config you are done. 
