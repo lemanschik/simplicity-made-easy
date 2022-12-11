@@ -1,4 +1,7 @@
-# simplicity-made-easy
+# new more gigantic book merging concepts of simplicity into that 
+https://github.com/lemanschik/why-you-should-switch-away-from-npm-nodejs
+
+# mini book simplicity-made-easy
 A book about simple things that are maybe not as easy but simple in ECMAScript.
 
 A person once suggested to me a talk https://www.infoq.com/presentations/Simple-Made-Easy/ and today i want to port that talk over to ECMAScript to improve the knowleg about ECMAScript Engines.
